@@ -21,7 +21,7 @@ services:
        - 80
      restart: always
      environment:
-       VIRTUAL_HOST: site1
+       VIRTUAL_HOST: wordpress
        WORDPRESS_DB_HOST: db_node_domain:3306
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: PASSWORD
